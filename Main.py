@@ -1,11 +1,7 @@
-import gspread
-‎
-from oauth2client.service_account import ServiceAccountCredentials
-‎
+import gspread‎
+from oauth2client.service_account import ServiceAccountCredentials‎
 from telegram import Update
-
-from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
-‎
+from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes‎
 ‎# إعداد صلاحيات Google Sheets API
 ‎SCOPE = [
 ‎    "https://spreadsheets.google.com/feeds",
