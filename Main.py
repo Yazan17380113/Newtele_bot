@@ -1,6 +1,9 @@
 import gspread‎
+# hi
 from oauth2client.service_account import ServiceAccountCredentials‎
+# hi
 from telegram import Update
+# hi
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes‎
 ‎# إعداد صلاحيات Google Sheets API
 ‎SCOPE = [
